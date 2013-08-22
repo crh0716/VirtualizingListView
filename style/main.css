@@ -1,0 +1,45 @@
+.arrangement {
+  position: absolute;
+}
+.right {
+  right: 0;
+}
+.top {
+  top: 0;
+}
+
+.scrollbar {
+  width: 10px;
+  height: 100%;
+  background: silver;  
+}
+
+.thumb {
+  width: 10px;
+  height: 30px;
+  background: gray;
+}
+
+.container {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  padding: 10px;
+  background: red;
+  color: white;
+  text-align: center;
+  display: none;
+}
+
+#listview {
+  width: 500px;
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+}
+
+#listview .panel {
+  position: absolute;
+  width: 100%;
+}
